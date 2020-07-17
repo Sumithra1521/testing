@@ -1,0 +1,14 @@
+spring: 
+  mysql: 
+   datasource: 
+    url: jdbc:mysql://localhost:3306/mcaasdb
+    username: root
+    password: root
+    driverClassName: com.mysql.jdbc.Driver
+    jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate.ddl-auto: update
+    hibernate.show_sql: true
+    
+server: 
+    port: 8002
